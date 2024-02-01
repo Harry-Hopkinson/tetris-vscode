@@ -12,3 +12,5 @@ This extension is currently in development, expect the following features to be 
 
 - Handy button on status bar
 - Space bar to start new game at end screen.
+
+[Tetris.webm](https://github.com/Harry-Hopkinson/tetris-vscode/assets/63599884/e9187a9c-e740-4c99-a953-8a003a3de5d1)
