@@ -4,12 +4,11 @@ Bored during compliation or suffering from Programmer's block? This extension is
 
 ## To Play
 
-To play run the Start Tetris command within Visual Studio Code within the Command Pallete will load the game.
+To play run the Start Tetris command within Visual Studio Code within the Command Pallete will load the game. Or you can click on the game console status icon at the bottom of the toolbar.
 
 ## In development
 
 This extension is currently in development, expect the following features to be added soon...
 
-- A score in top right of screen
 - Handy button on status bar
 - Space bar to start new game at end screen.
