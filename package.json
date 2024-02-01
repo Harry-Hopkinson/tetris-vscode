@@ -2,7 +2,7 @@
   "name": "tetris-vscode",
   "displayName": "Tetris",
   "description": "Tetris Port in VSCode",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "publisher": "HarryHopkinson",
   "repository": "https://github.com/Harry-Hopkinson/tetris-vscode",
   "engines": {
@@ -18,8 +18,10 @@
     "tetris-vscode",
     "fun"
   ],
-  "icon": "images/icon.jpeg",
-  "activationEvents": [],
+  "icon": "images/icon.png",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
