@@ -1,7 +1,5 @@
 # Tetris in Vscode
 
-https://marketplace.visualstudio.com/items?itemName=HarryHopkinson.tetris-vscode&ssr=false#overview
-
 Bored during compliation or suffering from Programmer's block? This extension is for you. It allows the class game Tetris as a game inside Visual Studio Code.
 
 ## To Play

@@ -2,7 +2,7 @@
   "name": "tetris-vscode",
   "displayName": "Tetris",
   "description": "Tetris Port in VSCode",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "HarryHopkinson",
   "repository": "https://github.com/Harry-Hopkinson/tetris-vscode",
   "engines": {
@@ -32,15 +32,11 @@
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
-    "lint": "eslint \"src/**/*.ts\"",
     "watch": "tsc -watch -p ./"
   },
   "devDependencies": {
     "@types/node": "^16.18.34",
     "@types/vscode": "^1.73.0",
-    "@typescript-eslint/eslint-plugin": "^6.7.0",
-    "@typescript-eslint/parser": "^6.7.0",
-    "eslint": "^8.26.0",
     "typescript": "^5.3.2"
   }
 }
