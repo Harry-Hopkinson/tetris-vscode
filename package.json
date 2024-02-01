@@ -1,8 +1,8 @@
 {
 	"name": "tetris-vscode",
 	"displayName": "Tetris VSCode",
-	"description": "Vscode Port in Tetris",
-	"version": "0.0.2",
+	"description": "Tetris Port in VSCode",
+	"version": "0.0.3",
 	"publisher": "HarryHopkinson",
 	"repository": "https://github.com/Harry-Hopkinson/tetris-vscode",
 	"engines": {
