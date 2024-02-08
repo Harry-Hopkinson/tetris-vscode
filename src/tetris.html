@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <title>Tetris</title>
@@ -65,7 +65,7 @@
       function rotate(matrix) {
         const N = matrix.length - 1;
         const result = matrix.map((row, i) =>
-          row.map((val, j) => matrix[N - j][i])
+          row.map((val, j) => matrix[N - j][i]),
         );
 
         return result;
@@ -250,7 +250,7 @@
                   (tetromino.col + col) * grid,
                   (tetromino.row + row) * grid,
                   grid - 1,
-                  grid - 1
+                  grid - 1,
                 );
               }
             }
