@@ -14,28 +14,28 @@ export function activate(context: vscode.ExtensionContext) {
         {
           // Enable scripts in the webview
           enableScripts: true,
-        }
+        },
       );
 
-      const filePath = path.join(context.extensionPath, "tetris.html");
+      const filePath = path.join(context.extensionPath, "./src/tetris.html");
       const html = fs.readFileSync(filePath, "utf8");
 
       panel.webview.html = html;
-    })
+    }),
   );
 
   statusBar = vscode.window.createStatusBarItem(
     vscode.StatusBarAlignment.Right,
-    100
+    100,
   );
   statusBar.command = "tetris.start-game";
   context.subscriptions.push(statusBar);
 
   context.subscriptions.push(
-    vscode.window.onDidChangeActiveTextEditor(updateStatusBar)
+    vscode.window.onDidChangeActiveTextEditor(updateStatusBar),
   );
   context.subscriptions.push(
-    vscode.window.onDidChangeTextEditorSelection(updateStatusBar)
+    vscode.window.onDidChangeTextEditorSelection(updateStatusBar),
   );
 
   updateStatusBar();

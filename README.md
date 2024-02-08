@@ -3,7 +3,8 @@
 # VS Code Tetris
 
 ![icon](images/icon.png)
-</div>    
+
+</div>
 
 <p align="center">
     Bored during compliation or suffering from Programmer's block? This extension is for you. It allows the class game Tetris as a game inside Visual Studio Code.
